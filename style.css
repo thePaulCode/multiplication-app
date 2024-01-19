@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*background-color: rgba(25, 10, 241, 0.58);*/
+    background: linear-gradient(120deg, rgba(25, 10, 241, 0.58), black);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+
+}
+
+.form {
+    width: 350px;
+    margin: auto;
+    background-color: rgb(246, 246, 246);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    
+}
+
+input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+    border: solid 4px rgba(25, 10, 241, 0.58);
+    color: rgb(10, 15, 2);
+    padding: 12px;
+}
+
+.input::placeholder{
+    color: rgba(14, 16, 159, 0.582);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    background-color: rgba(25, 10, 241, 0.58);
+    color: rgb(255, 255, 255);
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(26, 28, 155, 0.3);
+    cursor: pointer;
+}
+
+.btn:hover {
+    filter: brightness(0.6);
+}
+
+.btn{
+    font-weight: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.score {
+    color: green;
+    text-align: right;
+}
