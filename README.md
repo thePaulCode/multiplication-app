@@ -12,6 +12,10 @@ O projeto é composto por três arquivos principais:
 - **style.css**: O arquivo CSS contém estilos básicos para a aparência da aplicação.
 - **index.js**: O arquivo JavaScript contém a lógica da aplicação, incluindo a geração de perguntas, o processamento das respostas do usuário e a atualização da pontuação no armazenamento local.
 
+Abaixo o resultado do projeto exibido no navegador.
+
+<a href="https://ibb.co/Jq9fz9j"><img src="https://i.ibb.co/42H6jHR/tela-app.png" alt="tela-app" border="0"></a>
+
 ## Como Utilizar
 
 1. Abra o arquivo `index.html` em um navegador web.
@@ -30,3 +34,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issue
 ## Licença
 
 Este projeto está sob a licença [MIT](LICENSE).
+
+## @thePaulCode - Paulo Santos
+Agradecimento especial ao meu tutor de JavaScript, o verdadeiro JavaScript King! Sua orientação e expertise têm sido inestimáveis na minha jornada de aprendizado. Eu valorizo sua dedicação e apoio. Muito obrigado!
